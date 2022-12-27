@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&family=Poppins&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="hiasan">
+        <div class="circle"></div>
+        <div class="circle2"></div>
+    </div>
+    <div class="tubuh-calc">
+        <div id="hasil-calc" class="hasil-calc">
+            <div id="first-num" class="first-num"></div>
+            <div id="select-num" class="select-num"></div>
+        </div>
+        <div class="tombol-calc">
+            <div class="column">
+                <button class="tombol">7</button>
+                <button class="tombol">4</button>
+                <button class="tombol">1</button>
+                <button id="delete" class="operator" onclick="hapus()">del</button>
+            </div>
+            <div class="column">
+                <button class="tombol">8</button>
+                <button class="tombol">5</button>
+                <button class="tombol">2</button>
+                <button class="tombol">0</button>
+            </div>
+            <div class="column">
+                <button class="tombol">9</button>
+                <button class="tombol">6</button>
+                <button class="tombol" >3</button>
+                <button id="samdengan" class="operator">=</button>
+            </div>
+            <div class="column">
+                <button id="operasi" class="tombol">+</button>
+                <button id="operasi" class="tombol" value="-">-</button>
+                <button id="operasi" class="tombol">:</button>
+                <button id="operasi" class="tombol">x</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
